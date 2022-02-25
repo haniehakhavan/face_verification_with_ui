@@ -17,7 +17,7 @@ this code gets 1 photo of a person then by using webcam it can identify whether 
 
 Python 3.6
 <br/>
-pip intall -r requirments.txt
+pip intall -r requirements.txt
 
 ## usage
 
