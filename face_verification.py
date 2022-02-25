@@ -85,7 +85,6 @@ def image_resize(image, width=None, height=None, inter=cv2.INTER_AREA):
         r = width / float(w)
         dim = (width, int(h * r))
 
-    resized = cv2.resize(image, interpolation=inter)
     return resized
 
 
@@ -163,4 +162,4 @@ if image_file is not None:
                 # cv2.destroyAllWindows()
 else:
     st.sidebar.markdown('there is no uploaded file.')
-    st.sidebar.markdown('please upload photo of your ID card.')
+    st.sidebar.markdown('please upload photo of yourself.')
